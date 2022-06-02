@@ -10,7 +10,7 @@ if __name__ == "__main__":
     e = mul(a,b)
     f = div(a,b)
 
-    print(f"{a} + {b} = {c}")
-    print(f"{a} - {b} = {d}")
-    print(f"{a} * {b} = {e}")
-    print(f"{a} / {b} = {f}")
+    print("{} + {} = {}".format(a,b,c))
+    print("{} - {} = {}".format(a,b,d))
+    print("{} * {} = {}".format(a,b,e))
+    print("{} / {} = {}".format(a,b,f))
