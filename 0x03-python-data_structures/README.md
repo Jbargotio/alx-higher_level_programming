@@ -1,5 +1,5 @@
-####  Python Data Structures: Lists and Tuples <br/>
-## [Print a list of integers] (./0-print_list_integer) <br/>
+##  Python Data Structures: Lists and Tuples <br/>
+[Print a list of integers] (0-print_list_integer) <br/>
 A function that prints all integers of a list.<br/>
 ## [Secure access to an element in a list] (1-element_at.py)<br/>
 A function that retrieves an element from a list like in C<br/>
