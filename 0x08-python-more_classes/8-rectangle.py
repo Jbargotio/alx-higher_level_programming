@@ -70,17 +70,20 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
+
     def __del__(self):
         """Print this message for every Rectangle deletion."""
+
         print('Bye rectangle...')
         type(self).number_of_instances -= 1
 
-    @staticmethod    
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """ Returns biggest rectangle"""
-        if isinstance(rect_1, Rectangle) == False:
+
+        if isinstance(rect_1, Rectangle) is False:
             raise TypeError('rect_1 must be an instance of Rectangle')
-        if isinstance(rect_2, Rectangle) == False:
+        if isinstance(rect_2, Rectangle) is False:
             raise TypeError('rect_2 must be an instance of Rectangle')
         if rect_1.area() >= rect_2.area():
             return rect_1
